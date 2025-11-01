@@ -1,5 +1,7 @@
 # DashboardSummary
 
+![CI](https://github.com/Path-Variable/influxdb-summary-java/actions/workflows/ci.yml/badge.svg?branch=main)
+
 A small Java service that periodically queries InfluxDB metrics, asks Google Gemini to produce a short human‑friendly summary (2–4 sentences), and writes that summary back to InfluxDB for display on dashboards.
 
 ## Features
